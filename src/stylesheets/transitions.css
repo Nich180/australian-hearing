@@ -1,0 +1,30 @@
+.element-header {
+ color: rgba(255, 255, 255, 1);
+}
+
+.element-child {
+  transition-timing-function: ease;
+  height: 230px;
+  box-shadow: 0px 0px 0px 0px rgba(1, 1, 1, 0);
+  transition-property: height, box-shadow;
+  transition-duration: 2s;
+}
+
+.element:hover > .backg-img {
+  box-shadow: 0px 0px 60px 0px rgba(1, 1, 1, 0.2);
+  filter: blur(3px);
+}
+
+.element:hover > .element-child {
+    height: 100%;
+}
+
+.element:hover > .element-child > .element-parag {
+  color: rgba(255, 255, 255, 1);
+}
+
+.element-parag {
+  transition-property: color;
+  transition-duration: 2s;
+  color: rgba(255, 255, 255, 0);
+}

@@ -10,7 +10,8 @@
     "react-scripts": "2.0.5",
     "sass": "^1.14.3",
     "font-awesome": "^4.7.0",
-    "react-icons": "^3.2.2"
+    "react-icons": "^3.2.2",
+    "popper": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
